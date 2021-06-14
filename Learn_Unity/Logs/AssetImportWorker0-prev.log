@@ -1,0 +1,176 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nitesh/Desktop/unitygame/Unity_Learn/Learn_Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54530
+Successfully changed project path to: /Users/nitesh/Desktop/unitygame/Unity_Learn/Learn_Unity
+/Users/nitesh/Desktop/unitygame/Unity_Learn/Learn_Unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.10f1 (b15f561b2cef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nitesh/Desktop/unitygame/Unity_Learn/Learn_Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-06-11 17:42:35.652 Unity[3886:218580] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-06-11 17:42:35.652 Unity[3886:218580] Metal devices available: 1
+2021-06-11 17:42:35.652 Unity[3886:218580] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-06-11 17:42:35.652 Unity[3886:218580] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56886
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003961 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 37.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6174ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016958 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2376ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1999ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (628ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (828ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 2.633351 ms (FindLiveObjects: 0.174857 ms CreateObjectMapping: 0.051136 ms MarkObjects: 2.324501 ms  DeleteObjects: 0.081270 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/day3
+  artifactKey: Guid(85baae16495554245975232f83c3f2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3 using Guid(85baae16495554245975232f83c3f2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdeb703ac73063e56f27930ce6eb2c2') in 0.006551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.349036 seconds.
+  path: Assets/day3/sh.unity
+  artifactKey: Guid(96bed4bbbd6c446e994c514660b5ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3/sh.unity using Guid(96bed4bbbd6c446e994c514660b5ac0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7d1edeea38d0bf190276882a59959b') in 0.011539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.344281 seconds.
+  path: Assets/day3/Astroid.unity
+  artifactKey: Guid(e90dfb9a6b34f43b7a900e72050e41c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3/Astroid.unity using Guid(e90dfb9a6b34f43b7a900e72050e41c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8363daf7ed0317d600edb648aeaf9c4e') in 0.007229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.319451 seconds.
+  path: Assets/day3/Scripts
+  artifactKey: Guid(81e9a8a8ecb7341a09b3edbf288771d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3/Scripts using Guid(81e9a8a8ecb7341a09b3edbf288771d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f1756757be110ec3a57e8f6af11422') in 0.004493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.045966 seconds.
+  path: Assets/day3/Frebas
+  artifactKey: Guid(b40566333b3d74bdb8d6984b39582494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3/Frebas using Guid(b40566333b3d74bdb8d6984b39582494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533b59eb01cc0cb1721ae8087bcb0c93') in 0.002949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.014492 seconds.
+  path: Assets/day3/materials
+  artifactKey: Guid(3f4316de33b52453e81a8cac7946a883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3/materials using Guid(3f4316de33b52453e81a8cac7946a883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7db3c314829460c8313d50f5303a2fc') in 0.004752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 405.297202 seconds.
+  path: Assets/day3/Astroid.unity
+  artifactKey: Guid(e90dfb9a6b34f43b7a900e72050e41c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/day3/Astroid.unity using Guid(e90dfb9a6b34f43b7a900e72050e41c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9610298a89d1b30345efe79d4b9ba6c5') in 0.006546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.180058 seconds.
+  path: Assets/New Physics Material 2D.physicsMaterial2D
+  artifactKey: Guid(80c2b445b61b249ae8fa03e30f77d94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Physics Material 2D.physicsMaterial2D using Guid(80c2b445b61b249ae8fa03e30f77d94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b1161b8f12360998b851df67e3ba81') in 1.178400 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

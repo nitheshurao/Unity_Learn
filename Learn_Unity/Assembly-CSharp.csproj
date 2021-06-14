@@ -64,6 +64,11 @@
     <Compile Include="Assets/day1/Scripts/UIScaler.cs" />
     <Compile Include="Assets/day2/Script/Dropdownhandler.cs" />
     <Compile Include="Assets/day2/Script/Buton_handler.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/ipanel.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/PanelBase.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/PopupBase.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/ScreenBase.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/UIAbstractFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
