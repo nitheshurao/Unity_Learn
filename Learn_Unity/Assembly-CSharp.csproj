@@ -59,16 +59,35 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/Managers/PopupFactory.cs" />
     <Compile Include="Assets/day2/UseJson/Jsonreadwrit.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Utils/SingletonBase.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/Welcome.cs" />
     <Compile Include="Assets/day2/UseJson/data.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Core/Main/BackBtnManager.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/SignIn.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/PopupBase.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/ScreenBase.cs" />
     <Compile Include="Assets/day1/Scripts/UIScaler.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Utils/GameObjectExt.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/Data/Details.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/Behaviours/UIBehaviour.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Utils/StringExtensions.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/Data/data1.cs" />
     <Compile Include="Assets/day2/Script/Dropdownhandler.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/IPanel.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Utils/InfiniteScroll/InfiniteScroll.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Core/Localization/LocalizationManager.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/RestPassword.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/Splash.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/UIAbstractFactory.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/Managers/ScreenFactory.cs" />
     <Compile Include="Assets/day2/Script/Buton_handler.cs" />
-    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/ipanel.cs" />
-    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/PanelBase.cs" />
-    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/PopupBase.cs" />
-    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/ScreenBase.cs" />
-    <Compile Include="Assets/AbstrctFactoryPatter/FrameWork/UI/UIAbstractFactory.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/PanelBase.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Core/Localization/LabelData.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Utils/ColorPicker.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Scripts/Rigister.cs" />
+    <Compile Include="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/Behaviours/CustomBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

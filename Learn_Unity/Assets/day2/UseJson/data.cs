@@ -5,8 +5,9 @@ using UnityEngine;
 public class data 
 {
    
-    public string Id;
     public string Name;
+    public string Id;
     public string Info;
+ 
 
 };

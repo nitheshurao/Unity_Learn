@@ -21,11 +21,11 @@ public class Jsonreadwrit : MonoBehaviour
 
 
         string json = JsonUtility.ToJson(data, true);
-        File.WriteAllText(Application.dataPath + "/data.json", json);
+        File.WriteAllText(Application.dataPath + "/data1.json", json);
     }
     public void Loadform()
     {
-        string json = File.ReadAllText(Application.dataPath + "/data.json");
+        string json = File.ReadAllText(Application.dataPath + "/data1.json");
 
         data da = JsonUtility.FromJson<data>(json);
         IdInputfield.text = da.Id;

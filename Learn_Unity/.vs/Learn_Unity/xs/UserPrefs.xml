@@ -1,24 +1,26 @@
 ﻿<Properties StartupConfiguration="{9F93D246-ECB7-8B69-39D4-ADFC8340F4FF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AbstrctFactoryPatter/FrameWork/UI/PanelBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AbstrctFactoryPatter/Scripts/RestPassword.cs">
     <Files>
-      <File FileName="Assets/day2/Script/Buton_handler.cs" Line="15" Column="1" NotebookId="1" />
-      <File FileName="Assets/day2/Script/Dropdownhandler.cs" NotebookId="1" />
-      <File FileName="Assets/day2/UseJson/Jsonreadwrit.cs" NotebookId="1" />
-      <File FileName="Assets/data.json" NotebookId="1" />
-      <File FileName="Assets/day1/Scripts/UIScaler.cs" NotebookId="1" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/IPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/PopupBase.cs" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/PanelBase.cs" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/ScreenBase.cs" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/UI/UIAbstractFactory.cs" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/Managers/ScreenFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/AbstrctFactoryPatter/Frameworks/UIFramework/Managers/PopupFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/AbstrctFactoryPatter/Scripts/Rigister.cs" Line="160" Column="8" />
+      <File FileName="Assets/AbstrctFactoryPatter/Scripts/Welcome.cs" Line="40" Column="1" />
+      <File FileName="Assets/day2/UseJson/data.cs" Line="14" Column="1" />
+      <File FileName="Assets/day2/UseJson/Jsonreadwrit.cs" Line="31" Column="35" />
+      <File FileName="Assets/AbstrctFactoryPatter/Scripts/Data/Details.cs" Line="5" Column="14" />
+      <File FileName="Assets/AbstrctFactoryPatter/Scripts/Sign In.cs" Line="101" Column="10" />
+      <File FileName="Assets/AbstrctFactoryPatter/Scripts/RestPassword.cs" Line="117" Column="10" />
+      <File FileName="Assets/Details.json" Line="6" Column="2" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="0" Y="25" Width="1440" Height="847">
-        <Files>
-          <File FileName="Assets/AbstrctFactoryPatter/FrameWork/UI/ipanel.cs" Line="13" Column="1" />
-          <File FileName="Assets/AbstrctFactoryPatter/FrameWork/UI/PanelBase.cs" Line="1" Column="1" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9871a281-97c8-411f-bfa1-44a56f86a453" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="945bb942-a994-42fd-89a1-531fb6d54f9e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
