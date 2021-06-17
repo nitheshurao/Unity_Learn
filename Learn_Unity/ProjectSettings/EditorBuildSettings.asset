@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Selfy/Sceen/selfie.unity
+    guid: 0feac92a0bb51475680ca4b82eb81e74
   m_configObjects: {}
