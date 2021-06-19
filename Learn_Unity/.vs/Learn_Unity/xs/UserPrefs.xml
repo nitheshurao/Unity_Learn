@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{9F93D246-ECB7-8B69-39D4-ADFC8340F4FF}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Selfy/code/Selfy/San.cs">
     <Files>
+      <File FileName="Assets/Selfy/code/Selfy/San.cs" Line="120" Column="57" />
       <File FileName="Assets/day2/UseJson/data.cs" Line="14" Column="1" />
-      <File FileName="Assets/day2/UseJson/Jsonreadwrit.cs" />
+      <File FileName="Assets/day2/UseJson/Jsonreadwrit.cs" Line="24" Column="8" />
       <File FileName="Assets/Details.json" />
-      <File FileName="Assets/Selfy/code/Selfy/Camer.cs" Line="6" Column="1" />
-      <File FileName="Assets/Selfy/code/Selfy/San.cs" Line="61" Column="11" />
+      <File FileName="Assets/Selfy/code/Selfy/Camer.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="52a1bfcf-9269-49e2-a686-57fae97590c1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd816ab6-b80d-459d-b053-1ba20adfd284" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

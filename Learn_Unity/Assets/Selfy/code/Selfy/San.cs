@@ -2,6 +2,8 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using System.IO;
+using System.Collections.Generic;
+
 public class San : MonoBehaviour
 {
     int currentCamIndex = 0;
@@ -12,10 +14,18 @@ public class San : MonoBehaviour
 
     public RawImage CapImage;
 
+    public RawImage ArImage;
+    //Creteing ibject poolonh 
+   
     public Text startStopText;
+    public Text imgc;
+
+    //galllery
+    int n;
+    List<string> imagess = new List<string>();
 
     public Text debug;
-
+    #region Camere
     public void SwapCam_Clicked()
     {
         if (WebCamTexture.devices.Length > 0)
@@ -53,15 +63,16 @@ public class San : MonoBehaviour
             CapImage.texture = tex;
         }
     }
-
+    
     private void StopWebCam()
     {
         display.texture = null;
         tex.Stop();
         tex = null;
     }
+#endregion
 
-   public void Take()
+    public void Take()
     { 
 
      
@@ -69,9 +80,11 @@ public class San : MonoBehaviour
         StartCoroutine(TakePhoto(3.0f));
         Debug.Log("click");
 
+
     }
 
     #region Take Photo
+    int j = 1;
     public IEnumerator TakePhoto(float t)  // Start this Coroutine on some button click
     {
 
@@ -90,10 +103,16 @@ public class San : MonoBehaviour
         //Encode to a PNG
         byte[] bytes = photo.EncodeToPNG();
         //Debug.Log("done" + p);
-
+       
 
         //Convet byte to base64
         string base64String = BytoBase64(bytes);
+        //StoreImage(base64String, j);
+
+        imagess.Add(base64String);
+        imgc.text = "no"+imagess.Count;
+        Debug.Log(imagess.Count);
+       
 
         //string base64String = System.Convert.ToBase64String(bytes);
         Debug.Log("done" + base64String);
@@ -103,6 +122,8 @@ public class San : MonoBehaviour
 
 
         //Convet String to byte
+        //imgc.text = "Img1 =" + j;
+        //j++;
 
 
         //byte[] imageBytes = System.Convert.FromBase64String(base64String);
@@ -114,6 +135,18 @@ public class San : MonoBehaviour
         //text.LoadImage(imageBytes);
         //CapImage.texture = text;
     }
+    #region Arrayof image
+    private void StoreImage(string img)
+    {
+        //public string[] imagess = new string[n];
+    
+      
+
+    }
+
+    #endregion
+
+
     #endregion
     #region Display Pic in side reowimage
     private void Dispalypic(byte[] image)
@@ -121,6 +154,10 @@ public class San : MonoBehaviour
         Texture2D text = new Texture2D(2, 2);
         text.LoadImage(image);
         CapImage.texture = text;
+        Instantiate(CapImage);
+        //ArImage.texture = text;
+
+
     }
 
     #endregion
@@ -132,6 +169,7 @@ public class San : MonoBehaviour
     public static string BytoBase64(byte[] bytes) {
         string base64String = System.Convert.ToBase64String(bytes);
         return base64String;
+
     }
     #endregion
     #region Convert Base64 to Byte
