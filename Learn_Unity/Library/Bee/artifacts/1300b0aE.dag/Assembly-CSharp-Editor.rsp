@@ -327,6 +327,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/AbstrctFactory_registartiin/Utils/InfiniteScroll/Editor/InfiniteScrollEditor.cs"
+"Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs"
 -langversion:8.0
 
 /deterministic

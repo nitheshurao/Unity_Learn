@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/AbstrctFactory_registartiin/Utils/InfiniteScroll/Editor/InfiniteScrollEditor.cs" />
+    <Compile Include="Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
