@@ -80,9 +80,11 @@
     <Compile Include="Assets/AbstrctFactory_registartiin/Scripts/SignIn.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Frameworks/UIFramework/UI/PopupBase.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Frameworks/UIFramework/UI/ScreenBase.cs" />
+    <Compile Include="Assets/LeanTween/root/TweenPositions.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralUISpace.cs" />
     <Compile Include="Assets/day1/Scripts/UIScaler.cs" />
     <Compile Include="Assets/LeanTween/Framework/LeanAudio.cs" />
+    <Compile Include="Assets/LeanTween/root/TweenScalers.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Utils/GameObjectExt.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Scripts/Data/Details.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Frameworks/UIFramework/Behaviours/UIBehaviour.cs" />
@@ -101,14 +103,17 @@
     <Compile Include="Assets/AbstrctFactory_registartiin/Utils/InfiniteScroll/InfiniteScroll.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralBasics2d.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSplines.cs" />
+    <Compile Include="Assets/LeanTween/root/TweenBase.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralEventsListeners.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSplineTrack.cs" />
+    <Compile Include="Assets/LeanTween/root/TweenRotations.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Core/Localization/LocalizationManager.cs" />
     <Compile Include="Assets/LeanTween/Framework/LeanTest.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/TestingZLegacy.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Scripts/RestPassword.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSpline2d.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Scripts/Splash.cs" />
+    <Compile Include="Assets/LeanTween/root/root.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/TestingZLegacyExt.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Frameworks/UIFramework/UI/UIAbstractFactory.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/PathSplinePerformance.cs" />
@@ -127,11 +132,6 @@
     <Compile Include="Assets/LeanTween/Examples/Scripts/Following.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Scripts/Rigister.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Frameworks/UIFramework/Behaviours/CustomBehaviour.cs" />
-    <Compile Include="Assets/LeanTween/root/root.cs" />
-    <Compile Include="Assets/LeanTween/root/TweenScalers.cs" />
-    <Compile Include="Assets/LeanTween/root/TweenBase.cs" />
-    <Compile Include="Assets/LeanTween/root/TweenPositions.cs" />
-    <Compile Include="Assets/LeanTween/root/TweenRotations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
