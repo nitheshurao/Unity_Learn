@@ -6,19 +6,19 @@
       <File FileName="Assets/day2/UseJson/Jsonreadwrit.cs" />
       <File FileName="Assets/Details.json" />
       <File FileName="Assets/Selfy/code/Selfy/Camer.cs" />
-      <File FileName="Assets/LeanTween/Scripts/Slide.cs" Line="17" Column="1" />
+      <File FileName="Assets/LeanTween/Scripts/Slide.cs" />
       <File FileName="Assets/LeanTween/Scripts/Sale.cs" />
       <File FileName="Assets/LeanTween/Scripts/Emphasiser.cs" />
-      <File FileName="Assets/LeanTween/root/root.cs" Line="49" Column="1" />
-      <File FileName="Assets/LeanTween/root/TweenBase.cs" Line="48" Column="4" />
-      <File FileName="Assets/LeanTween/root/TweenPositions.cs" Line="18" Column="6" />
-      <File FileName="Assets/LeanTween/root/TweenScalers.cs" Line="19" Column="7" />
-      <File FileName="Assets/LeanTween/root/TweenRotations.cs" Line="27" Column="42" />
+      <File FileName="Assets/LeanTween/root/root.cs" />
+      <File FileName="Assets/LeanTween/root/TweenBase.cs" />
+      <File FileName="Assets/LeanTween/root/TweenPositions.cs" Line="6" Column="11" />
+      <File FileName="Assets/LeanTween/root/TweenScalers.cs" />
+      <File FileName="Assets/LeanTween/root/TweenRotations.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e08c1f64-9d14-4473-88e5-74c3cefb10d3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c77b53e7-604b-4477-a44d-481637a5f31c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
