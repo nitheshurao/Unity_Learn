@@ -331,6 +331,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/ObjectPooling/FreFabs.cs"
 "Assets/Scenes/Scipts/Player1.cs"
 "Assets/Script/CamerFollow.cs"
 "Assets/Script/Frfabs.cs"

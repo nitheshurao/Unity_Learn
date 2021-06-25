@@ -64,6 +64,7 @@
     <Compile Include="Assets/Script/Player.cs" />
     <Compile Include="Assets/Script/roation.cs" />
     <Compile Include="Assets/Scenes/Scipts/Player1.cs" />
+    <Compile Include="Assets/ObjectPooling/FreFabs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
