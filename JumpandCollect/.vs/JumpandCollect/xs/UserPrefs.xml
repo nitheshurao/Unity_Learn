@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{465592F2-F9BD-84C2-84D2-60DE7EE6A7D2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scipts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Scipts/Player1.cs">
     <Files>
-      <File FileName="Assets/Script/Player.cs" Line="27" Column="17" />
-      <File FileName="Assets/Script/CamerFollow.cs" Line="11" Column="42" />
-      <File FileName="Assets/Script/Frfabs.cs" Line="32" Column="40" />
-      <File FileName="Assets/Script/roation.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scenes/Scipts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/ObjectPooling/FreFabs.cs" Line="48" Column="23" />
+      <File FileName="Assets/Script/Player.cs" Line="12" Column="2" />
+      <File FileName="Assets/Script/CamerFollow.cs" />
+      <File FileName="Assets/Script/Frfabs.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/roation.cs" />
+      <File FileName="Assets/randomMove.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scenes/Scipts/Player1.cs" Line="30" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="348e9d99-6a27-4420-b918-6464d9a470cc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fb8599e5-566f-4312-a800-d238b2ff22b6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

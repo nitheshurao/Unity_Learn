@@ -8,35 +8,23 @@ using System.Collections.Generic;
 
 public class Player1 : MonoBehaviour
 {
-
-    public List<GameObject> pooledObjects;
-    public GameObject objectToPool;
-    public int amountToPool;
-    // Start is called before the first frame update
-    //public static ObjectPooler SharedInstance;
-
-    void Awake()
+    public Rigidbody2D _Player;
+    public void Start()
     {
-        //SharedInstance = this;
+         //FreFabss = FreFabs.Instance;
     }
 
-    void Start()
+
+    private void FixedUpdate()
     {
-        pooledObjects = new List<GameObject>();
-        for (int i = 0; i < amountToPool; i++)
-        {
-            GameObject obj = (GameObject)Instantiate(objectToPool);
-            obj.SetActive(false);
-            pooledObjects.Add(obj);
-        }
 
 
-    }
+        float spawnY = Random.Range
+                    ((new Vector2(0, 0)).y, (new Vector2(4, _Player.position.y+9f)).y);
+                float spawnX = Random.Range
+                     ((new Vector2(0, 0)).x, (new Vector2(_Player.position.x+9f,1)).x);
 
-    // Update is called once per frame
-    void Update()
-    {
-        //obj.SetActive(true);
-
+                Vector2 spawnPosition = new Vector2(spawnX, spawnY);
+        FreFabs.Instance.spawnFromPool("hmn", spawnPosition ,Quaternion.identity);
     }
 }

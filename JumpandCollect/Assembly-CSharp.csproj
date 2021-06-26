@@ -60,11 +60,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Script/Frfabs.cs" />
-    <Compile Include="Assets/Script/CamerFollow.cs" />
-    <Compile Include="Assets/Script/Player.cs" />
     <Compile Include="Assets/Script/roation.cs" />
     <Compile Include="Assets/Scenes/Scipts/Player1.cs" />
     <Compile Include="Assets/ObjectPooling/FreFabs.cs" />
+    <Compile Include="Assets/Script/CamerFollow.cs" />
+    <Compile Include="Assets/randomMove.cs" />
+    <Compile Include="Assets/Script/Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -738,6 +739,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NativeGallery.Editor.csproj">
+      <Project>{85157F66-0B42-02D9-44BC-0EC4902C5D26}</Project>
+      <Name>NativeGallery.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NativeGallery.Runtime.csproj">
+      <Project>{23E3A8F9-2421-0A8C-E558-D059AE389B8A}</Project>
+      <Name>NativeGallery.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
