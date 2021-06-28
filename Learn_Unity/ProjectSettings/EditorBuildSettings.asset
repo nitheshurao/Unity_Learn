@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Selfy/Sceen/selfie.unity
     guid: 0feac92a0bb51475680ca4b82eb81e74
-  - enabled: 1
+  - enabled: 0
     path: Assets/LeanTween/Scene1.unity
     guid: d444602ec32b6486385aff2bd07a5cad
   m_configObjects: {}

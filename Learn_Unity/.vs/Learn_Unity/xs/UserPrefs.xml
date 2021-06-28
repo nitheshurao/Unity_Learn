@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{9F93D246-ECB7-8B69-39D4-ADFC8340F4FF}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PostProcessingVolume/PostProcessing/Editor/Utils/CurveEditor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Selfy/code/Selfy/San.cs">
     <Files>
-      <File FileName="Assets/Selfy/code/Selfy/San.cs" Line="120" Column="57" />
-      <File FileName="Assets/PostProcessingVolume/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" Line="30" Column="1" />
-      <File FileName="Assets/PostProcessingVolume/PostProcessing/Editor/Utils/CurveEditor.cs" Line="602" Column="10" />
+      <File FileName="Assets/Selfy/code/Selfy/San.cs" Line="123" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System.IO;
 using System.Collections.Generic;
 
+
 public class San : MonoBehaviour
 {
     int currentCamIndex = 0;
@@ -103,7 +104,16 @@ public class San : MonoBehaviour
         //Encode to a PNG
         byte[] bytes = photo.EncodeToPNG();
         //Debug.Log("done" + p);
-       
+
+        //Texture2D ss = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        //ss.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        //ss.Apply();
+
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(photo, "GalleryTest", "Image.png", (success, path) => Debug.Log("Media save result: " + success + " " + path));
+
+        Debug.Log("Permission result: " + permission);
+
+
 
         //Convet byte to base64
         string base64String = BytoBase64(bytes);
@@ -117,7 +127,7 @@ public class San : MonoBehaviour
         //string base64String = System.Convert.ToBase64String(bytes);
         Debug.Log("done" + base64String);
         //Write out the PNG. Of course you have to substitute your_path for something sensible
-        File.WriteAllBytes(Application.dataPath + "photo.png", bytes);
+        File.WriteAllBytes(Application.dataPath + "photo  .png", bytes);
         File.WriteAllText(Application.dataPath + "/Photos.png", base64String);
 
 
@@ -155,7 +165,7 @@ public class San : MonoBehaviour
         text.LoadImage(image);
         CapImage.texture = text;
         Instantiate(CapImage);
-        //ArImage.texture = text;
+        ArImage.texture = text;
 
 
     }
@@ -179,4 +189,47 @@ public class San : MonoBehaviour
         return imageBytes;
     }
     #endregion
-}
+
+ 
+
+   public void PickImage(int maxSize)
+    {
+        NativeGallery.Permission permission = NativeGallery.GetImageFromGallery((path) =>
+        {
+            Debug.Log("Image path: " + path);
+            if (path != null)
+            {
+                // Create Texture from selected image
+                Texture2D texture = NativeGallery.LoadImageAtPath(path, maxSize);
+                if (texture == null)
+                {
+                    Debug.Log("Couldn't load texture from " + path);
+                    return;
+                }
+
+                //Texture2D text = new Texture2D(2, 2);
+                //text.LoadImage(image);
+                CapImage.texture = texture;
+                ArImage.texture = texture;
+                //Instantiate(CapImage);
+                // Assign texture to a temporary quad and destroy it after 5 seconds
+             GameObject quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+                quad.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2.5f;
+                quad.transform.forward = Camera.main.transform.forward;
+                quad.transform.localScale = new Vector3(1f, texture.height / (float)texture.width, 1f);
+
+                Material material = quad.GetComponent<Renderer>().material;
+                if (!material.shader.isSupported) // happens when Standard shader is not included in the build
+                    material.shader = Shader.Find("Legacy Shaders/Diffuse");
+
+                material.mainTexture = texture;
+                //Dispalypic(texture);
+                Destroy(quad, 5f);
+
+                // If a procedural texture is not destroyed manually, 
+                // it will only be freed after a scene change
+                Destroy(texture, 5f);
+            }
+        });
+    }
+    }

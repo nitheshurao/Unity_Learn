@@ -1,0 +1,4 @@
+#Sun Jun 27 17:31:24 IST 2021
+base.0=/Users/nitesh/Desktop/unitygame/Unity_Learn/Learn_Unity/Temp/gradleOut/launcher/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

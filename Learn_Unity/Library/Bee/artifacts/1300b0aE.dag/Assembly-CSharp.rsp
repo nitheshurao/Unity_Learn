@@ -304,6 +304,8 @@
 -r:"/Applications/Unity/Hub/Editor/2021.1.10f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"/Users/nitesh/Desktop/unitygame/Unity_Learn/Learn_Unity/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Elringus.SpriteGlow.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/NativeGallery.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/NativeGallery.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
