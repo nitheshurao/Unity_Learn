@@ -67,6 +67,7 @@
     <Compile Include="Assets/LeanTween/Examples/Scripts/LogoCinematic.cs" />
     <Compile Include="Assets/LeanTween/Examples/Scripts/GeneralCameraShake.cs" />
     <Compile Include="Assets/LeanTween/Framework/LTDescr.cs" />
+    <Compile Include="Assets/Selfy/code/Selfy/Seflie.cs" />
     <Compile Include="Assets/LeanTween/Framework/LeanTweenExt.cs" />
     <Compile Include="Assets/LeanTween/Scripts/NewBehaviourScript.cs" />
     <Compile Include="Assets/AbstrctFactory_registartiin/Scripts/Welcome.cs" />

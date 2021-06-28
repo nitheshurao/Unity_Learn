@@ -27,12 +27,60 @@ public class San : MonoBehaviour
 
     public Text debug;
     #region Camere
+
+    //WebCamDevice[] devices = WebCamTexture.devices;
+    public void Start()
+    {
+        WebCamDevice[] devices = WebCamTexture.devices;
+        for (int i = 0; i < devices.Length; i++)
+            Debug.Log(devices[i].name);
+
+    }
+
+
+    public void Selfie()
+    {
+        WebCamDevice[] devices = WebCamTexture.devices;
+        foreach (var device in devices)
+        {
+            if (device.isFrontFacing)
+            {
+                tex = new WebCamTexture( Screen.width, Screen.height);
+            }
+        }
+        //for (int cameraIndex = 0; cameraIndex < WebCamTexture.devices.Length; cameraIndex++)
+        //{
+        //    if (!WebCamTexture.devices[cameraIndex].isFrontFacing == true)
+        //    {
+        //        tex = new WebCamTexture(cameraIndex, Screen.width, Screen.height);
+        //    }
+        //}
+        tex.Play();
+        display.texture = tex;
+
+
+
+
+
+
+    }
+
+    public void back() {
+    }
     public void SwapCam_Clicked()
     {
+
+        //Quaternion TestRotation1 = Quaternion.Euler(0, 0, -90);
+
+        //display.transform.rotation = TestRotation1;
         if (WebCamTexture.devices.Length > 0)
         {
             currentCamIndex += 1;
             currentCamIndex %= WebCamTexture.devices.Length;
+
+            //Quaternion TestRotation = Quaternion.Euler(0,0,90);
+
+            //display.transform.rotation = TestRotation;
 
             // if tex is not null:
             // stop the web cam
@@ -42,7 +90,10 @@ public class San : MonoBehaviour
             {
                 StopWebCam();
                 StartStopCam_Clicked();
+                
             }
+
+
         }
     }
 
@@ -62,6 +113,7 @@ public class San : MonoBehaviour
             tex.Play();
             startStopText.text = "Stop Camera";
             CapImage.texture = tex;
+
         }
     }
     
@@ -89,13 +141,10 @@ public class San : MonoBehaviour
     public IEnumerator TakePhoto(float t)  // Start this Coroutine on some button click
     {
 
-        // NOTE - you almost certainly have to do this here:
+        
         Debug.Log("hi");
-        yield return new WaitForEndOfFrame();
+      
 
-        // it's a rare case where the Unity doco is pretty clear,
-        // http://docs.unity3d.com/ScriptReference/WaitForEndOfFrame.html
-        // be sure to scroll down to the SECOND long example on that doco page 
 
         Texture2D photo = new Texture2D(tex.width, tex.height);
         photo.SetPixels(tex.GetPixels());
@@ -144,6 +193,7 @@ public class San : MonoBehaviour
         //Texture2D text = new Texture2D(2, 2);
         //text.LoadImage(imageBytes);
         //CapImage.texture = text;
+        yield return new WaitForEndOfFrame();
     }
     #region Arrayof image
     private void StoreImage(string img)
@@ -166,6 +216,7 @@ public class San : MonoBehaviour
         CapImage.texture = text;
         Instantiate(CapImage);
         ArImage.texture = text;
+
 
 
     }

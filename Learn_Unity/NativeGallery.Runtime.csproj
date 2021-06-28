@@ -59,12 +59,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Plugins/NativeGallery/iOS/NGMediaSaveCallbackiOS.cs" />
-    <Compile Include="Assets/Plugins/NativeGallery/Android/NGMediaReceiveCallbackAndroid.cs" />
-    <Compile Include="Assets/Plugins/NativeGallery/NativeGallery.cs" />
     <Compile Include="Assets/Plugins/NativeGallery/iOS/NGMediaReceiveCallbackiOS.cs" />
-    <Compile Include="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" />
+    <Compile Include="Assets/Plugins/NativeGallery/NativeGallery.cs" />
+    <Compile Include="Assets/Plugins/NativeGallery/iOS/NGMediaSaveCallbackiOS.cs" />
     <Compile Include="Assets/Plugins/NativeGallery/Android/NGCallbackHelper.cs" />
+    <Compile Include="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" />
+    <Compile Include="Assets/Plugins/NativeGallery/Android/NGMediaReceiveCallbackAndroid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Plugins/NativeGallery/NativeGallery.Runtime.asmdef" />

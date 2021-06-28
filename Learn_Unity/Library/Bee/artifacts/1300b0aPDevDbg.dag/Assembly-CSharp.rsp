@@ -364,6 +364,7 @@
 "Assets/LeanTween/Scripts/Slide.cs"
 "Assets/Selfy/code/Selfy/Camer.cs"
 "Assets/Selfy/code/Selfy/San.cs"
+"Assets/Selfy/code/Selfy/Seflie.cs"
 -langversion:8.0
 
 /deterministic
