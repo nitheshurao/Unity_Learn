@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{013B6DDB-6E9D-8F47-1227-6D62C44562EB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CamerFollow.cs">
     <Files>
-      <File FileName="Assets/Scripts/InitalFrefabGeneation.cs" Line="25" Column="1" />
-      <File FileName="Assets/Scripts/CamerFollow.cs" Line="14" Column="1" />
-      <File FileName="Assets/Scripts/FreFabs.cs" Line="43" Column="36" />
-      <File FileName="Assets/Scripts/Player.cs" Line="91" Column="24" />
-      <File FileName="../Learn_Unity/Assets/data1.json" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Man_Generator.cs" Line="43" Column="53" />
-      <File FileName="Assets/Scripts/randomMove.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/InitalFrefabGeneation.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/CamerFollow.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/FreFabs.cs" />
+      <File FileName="Assets/Scripts/Player.cs" Line="34" Column="1" />
+      <File FileName="../Learn_Unity/Assets/data1.json" />
+      <File FileName="Assets/Scripts/Man_Generator.cs" />
+      <File FileName="Assets/Scripts/randomMove.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fb8599e5-566f-4312-a800-d238b2ff22b6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="129cc626-c07a-4c14-9e15-fb1926a5c1a2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

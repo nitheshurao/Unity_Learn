@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TestTimer.cs">
+    <Files>
+      <File FileName="Assets/TestTimer.cs" Line="25" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="71090686-bcc0-44c3-9413-e26b3f750505" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

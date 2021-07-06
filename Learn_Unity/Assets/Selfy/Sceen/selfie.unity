@@ -221,7 +221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &17938555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,7 +1708,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7479170103798183267}
         m_TargetAssemblyTypeName: San, Assembly-CSharp
-        m_MethodName: Selie
+        m_MethodName: Selfie
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2937,7 +2937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1690185306
 Transform:
   m_ObjectHideFlags: 0
@@ -3905,7 +3905,7 @@ PrefabInstance:
     - target: {fileID: 7479170102695020350, guid: b5496b3294b774b15ae148eacc77ba68,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7479170103901465133, guid: b5496b3294b774b15ae148eacc77ba68,
         type: 3}
@@ -3920,7 +3920,7 @@ PrefabInstance:
     - target: {fileID: 7479170104068375445, guid: b5496b3294b774b15ae148eacc77ba68,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7479170104398590512, guid: b5496b3294b774b15ae148eacc77ba68,
         type: 3}
@@ -3941,6 +3941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7479170104548437887, guid: b5496b3294b774b15ae148eacc77ba68,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Selfie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5496b3294b774b15ae148eacc77ba68, type: 3}
@@ -4084,13 +4089,14 @@ GameObject:
   - component: {fileID: 7479170103798183266}
   - component: {fileID: 7479170103798183267}
   - component: {fileID: 7479170103798183265}
+  - component: {fileID: 7479170103798183268}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7479170103798183265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4149,4 +4155,22 @@ MonoBehaviour:
   ArImage: {fileID: 0}
   startStopText: {fileID: 7479170103798183261}
   imgc: {fileID: 7479170103798183260}
+  debug: {fileID: 0}
+--- !u!114 &7479170103798183268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7479170103798183264}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6c20829e1da4ee782a1d59b3a9253a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  display: {fileID: 0}
+  CapImage: {fileID: 0}
+  ArImage: {fileID: 0}
+  startStopText: {fileID: 0}
+  imgc: {fileID: 0}
   debug: {fileID: 0}
